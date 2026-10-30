@@ -1,0 +1,658 @@
+{
+  "generatedAt": "2026-10-30T08:48:02.205Z",
+  "asOf": "30 Oct 2026",
+  "fredEnabled": false,
+  "groupMeta": {
+    "g-eq": "Equities",
+    "g-rt": "Rates & currency",
+    "g-en": "Energy",
+    "g-ag": "Agriculture & soft commodities",
+    "g-mc": "Macro indicators (incl. consumer confidence)"
+  },
+  "groups": {
+    "g-eq": [
+      {
+        "key": "ftse",
+        "n": "FTSE 100",
+        "u": "index",
+        "v": "10,758",
+        "c": "+0.3%",
+        "dir": "up",
+        "s": [
+          10637,
+          10606,
+          10428,
+          10462,
+          10498,
+          10542,
+          10459,
+          10442,
+          10552,
+          10656,
+          10650,
+          10725,
+          10840,
+          10882,
+          10765,
+          10733,
+          10753,
+          10725,
+          10690,
+          10767,
+          10687,
+          10695,
+          10722,
+          10758
+        ],
+        "pct": 87,
+        "r": "Firmer — near 1-yr high · 87th pct"
+      },
+      {
+        "key": "spx",
+        "n": "S&P 500",
+        "u": "index",
+        "v": "7,720",
+        "c": "−0.3%",
+        "dir": "down",
+        "s": [
+          7683.7,
+          7670.8,
+          7651.5,
+          7666.5,
+          7722.7,
+          7774,
+          7818.9,
+          7801.8,
+          7765.4,
+          7811.5,
+          7807.2,
+          7805.5,
+          7718.9,
+          7744.1,
+          7659.4,
+          7690.7,
+          7712.6,
+          7757.2,
+          7663.4,
+          7623.7,
+          7676.8,
+          7722.6,
+          7744,
+          7720.4
+        ],
+        "pct": 89,
+        "r": "Softer — near 1-yr high · 89th pct"
+      },
+      {
+        "key": "tesco",
+        "n": "Tesco",
+        "u": "pence · LSE",
+        "v": "536.6",
+        "c": "+1.1%",
+        "dir": "up",
+        "s": [
+          470.9,
+          468.8,
+          474.8,
+          469,
+          470.2,
+          470,
+          475.8,
+          500.4,
+          503.8,
+          511,
+          517,
+          526.4,
+          534.6,
+          535,
+          539,
+          539,
+          538,
+          544.6,
+          537.6,
+          533.6,
+          535.6,
+          532,
+          531,
+          536.6
+        ],
+        "pct": 98,
+        "r": "Firmer — near 1-yr high · 98th pct"
+      }
+    ],
+    "g-rt": [
+      {
+        "key": "gbp",
+        "n": "GBP / USD",
+        "u": "$ per £",
+        "v": "1.3412",
+        "c": "+0.3%",
+        "dir": "up",
+        "s": [
+          1.3254,
+          1.3233,
+          1.3264,
+          1.32,
+          1.3243,
+          1.3219,
+          1.3267,
+          1.3215,
+          1.3229,
+          1.3242,
+          1.321,
+          1.3257,
+          1.323,
+          1.3273,
+          1.3336,
+          1.3308,
+          1.3373,
+          1.3396,
+          1.3404,
+          1.3378,
+          1.3345,
+          1.3306,
+          1.3328,
+          1.3412
+        ],
+        "pct": 48,
+        "r": "Firmer — mid-range · 48th pct"
+      },
+      {
+        "key": "us10y",
+        "n": "US 10-yr",
+        "u": "yield %",
+        "v": "4.99",
+        "c": "−6 bp",
+        "dir": "down",
+        "s": [
+          5.24,
+          5.255,
+          5.293,
+          5.237,
+          5.277,
+          5.311,
+          5.269,
+          5.277,
+          5.231,
+          5.244,
+          5.24,
+          5.217,
+          5.19,
+          5.089,
+          5.098,
+          5.136,
+          5.117,
+          5.146,
+          4.953,
+          4.988,
+          4.986,
+          4.993,
+          5.045,
+          4.989
+        ],
+        "pct": 90,
+        "r": "Softer — near 1-yr high · 90th pct"
+      },
+      {
+        "key": "gilt",
+        "n": "UK 10-yr gilt",
+        "u": "yield % · monthly",
+        "pending": true,
+        "note": "Add FRED_API_KEY"
+      }
+    ],
+    "g-en": [
+      {
+        "key": "brent",
+        "n": "Brent crude",
+        "u": "$/bbl",
+        "v": "112.95",
+        "c": "+1.9%",
+        "dir": "up",
+        "s": [
+          102.59,
+          103.53,
+          102.31,
+          102.25,
+          100.32,
+          100.58,
+          100.2,
+          104.28,
+          104.72,
+          106.65,
+          105.69,
+          106.06,
+          105.92,
+          109.86,
+          109.55,
+          108.79,
+          108.82,
+          113.17,
+          116.72,
+          115.81,
+          113.88,
+          115.32,
+          114.88,
+          112.95
+        ],
+        "pct": 96,
+        "r": "Firmer — near 1-yr high · 96th pct"
+      }
+    ],
+    "g-ag": [
+      {
+        "key": "wheat",
+        "n": "Wheat",
+        "u": "$/bushel · CBOT",
+        "v": "6.05",
+        "c": "+0.3%",
+        "dir": "up",
+        "s": [
+          6.9275,
+          6.7575,
+          6.8275,
+          6.83,
+          6.9225,
+          7.0425,
+          6.865,
+          6.8325,
+          6.71,
+          6.7225,
+          6.6925,
+          6.7325,
+          6.7,
+          6.605,
+          6.5525,
+          6.4325,
+          6.2825,
+          6.2475,
+          6.25,
+          6.16,
+          6.1025,
+          5.99,
+          6.0375,
+          6.055
+        ],
+        "pct": 55,
+        "r": "Firmer — mid-range · 55th pct"
+      },
+      {
+        "key": "corn",
+        "n": "Corn",
+        "u": "$/bushel · CBOT",
+        "v": "4.50",
+        "c": "−0.4%",
+        "dir": "down",
+        "s": [
+          5.22,
+          5.0075,
+          5.0225,
+          4.9775,
+          4.9725,
+          5.08,
+          5.02,
+          5.0025,
+          4.7975,
+          4.83,
+          4.8275,
+          4.8075,
+          4.78,
+          4.7425,
+          4.67,
+          4.62,
+          4.6325,
+          4.605,
+          4.56,
+          4.55,
+          4.4875,
+          4.5175,
+          4.5125,
+          4.495
+        ],
+        "pct": 58,
+        "r": "Softer — mid-range · 58th pct"
+      },
+      {
+        "key": "soy",
+        "n": "Soybeans",
+        "u": "$/bushel · CBOT",
+        "v": "12.35",
+        "c": "+0.0%",
+        "dir": "flat",
+        "s": [
+          12.978,
+          12.93,
+          12.84,
+          12.783,
+          12.808,
+          13.03,
+          12.975,
+          12.875,
+          12.92,
+          12.877,
+          12.838,
+          12.773,
+          12.63,
+          12.613,
+          12.535,
+          12.482,
+          12.453,
+          12.53,
+          12.565,
+          12.412,
+          12.293,
+          12.245,
+          12.197,
+          12.35
+        ],
+        "pct": 82,
+        "r": "Steady — mid-range · 82th pct"
+      },
+      {
+        "key": "sugar",
+        "n": "Sugar",
+        "u": "¢/lb · raw NY",
+        "v": "19.52",
+        "c": "+0.3%",
+        "dir": "up",
+        "s": [
+          17.46,
+          17.82,
+          17.63,
+          18.94,
+          19.93,
+          20.73,
+          20.82,
+          20.83,
+          20.15,
+          20.25,
+          20.85,
+          21.11,
+          20.84,
+          21.13,
+          20.85,
+          20.57,
+          20.52,
+          20.45,
+          20.13,
+          20.24,
+          19.1,
+          19.2,
+          19.34,
+          19.47
+        ],
+        "pct": 94,
+        "r": "Firmer — near 1-yr high · 94th pct"
+      },
+      {
+        "key": "cocoa",
+        "n": "Cocoa",
+        "u": "$/tonne · NY",
+        "v": "5,459",
+        "c": "+0.1%",
+        "dir": "up",
+        "s": [
+          5589,
+          5408,
+          5367,
+          5381,
+          5670,
+          5867,
+          5700,
+          5582,
+          5665,
+          5665,
+          5676,
+          5733,
+          5735,
+          5831,
+          5645,
+          5687,
+          5801,
+          5843,
+          5582,
+          5592,
+          5490,
+          5577,
+          5456,
+          5456
+        ],
+        "pct": 60,
+        "r": "Firmer — mid-range · 60th pct"
+      },
+      {
+        "key": "coffee",
+        "n": "Coffee",
+        "u": "$/lb · arabica",
+        "v": "2.87",
+        "c": "+0.4%",
+        "dir": "up",
+        "s": [
+          2.8875,
+          2.8945,
+          2.907,
+          2.8825,
+          2.8875,
+          2.9255,
+          3.0445,
+          2.927,
+          2.8905,
+          2.8695,
+          2.906,
+          2.927,
+          2.9805,
+          2.948,
+          3.056,
+          3.157,
+          3.113,
+          3.1615,
+          3.1245,
+          3.0745,
+          3.0095,
+          2.9375,
+          2.8675,
+          2.8545
+        ],
+        "pct": 14,
+        "r": "Firmer — near 1-yr low · 14th pct"
+      },
+      {
+        "key": "urea",
+        "n": "Urea",
+        "u": "fertiliser",
+        "pending": true,
+        "note": "Awaiting feed"
+      }
+    ],
+    "g-mc": [
+      {
+        "key": "umcsent",
+        "n": "US consumer sentiment",
+        "u": "UMich index",
+        "pending": true,
+        "note": "Add FRED_API_KEY"
+      },
+      {
+        "key": "uscpi",
+        "n": "US CPI",
+        "u": "YoY %",
+        "pending": true,
+        "note": "Add FRED_API_KEY"
+      },
+      {
+        "key": "ukcpi",
+        "n": "UK CPI",
+        "u": "YoY %",
+        "pending": true,
+        "note": "Add FRED_API_KEY"
+      },
+      {
+        "key": "fedfunds",
+        "n": "Fed funds rate",
+        "u": "% · effective",
+        "pending": true,
+        "note": "Add FRED_API_KEY"
+      },
+      {
+        "key": "unrate",
+        "n": "US unemployment",
+        "u": "% rate",
+        "pending": true,
+        "note": "Add FRED_API_KEY"
+      },
+      {
+        "key": "pmi",
+        "n": "Global mfg PMI",
+        "u": "no free feed",
+        "pending": true,
+        "note": "Awaiting feed"
+      }
+    ]
+  },
+  "regime": {
+    "read": "<strong>Energy-led inflation risk is firming while equities hold.</strong> Brent near $112.95 and US 10-yr around 4.99% keep the higher-for-longer bias intact, even as softening grains leave a disinflation glide path open. The base case is a soft landing; the live risk is an energy-and-food squeeze.",
+    "tags": [
+      {
+        "label": "Rates bias",
+        "value": "Higher-for-longer"
+      },
+      {
+        "label": "Inflation impulse",
+        "value": "Energy ↑ · Grains ↓"
+      },
+      {
+        "label": "Risk appetite",
+        "value": "Steady"
+      },
+      {
+        "label": "Discount-rate view",
+        "value": "Elevated"
+      }
+    ]
+  },
+  "scenarios": [
+    {
+      "id": "energy",
+      "name": "Higher-for-longer, energy-led",
+      "sub": "Sticky inflation keeps rates restrictive",
+      "status": "rising",
+      "statusLabel": "Risk rising",
+      "signals": [
+        {
+          "cls": "u",
+          "icon": "▲",
+          "text": "Brent $112.95"
+        },
+        {
+          "cls": "d",
+          "icon": "▼",
+          "text": "US 10-yr 4.99%"
+        },
+        {
+          "cls": "u",
+          "icon": "▲",
+          "text": "Wheat"
+        },
+        {
+          "cls": "u",
+          "icon": "▲",
+          "text": "Sugar"
+        }
+      ],
+      "analogue": "2022–23 energy-driven inflation; partial echo of the 1973–74 oil shock.",
+      "inv": "Long-duration, pre-profit growth re-rates down. Diligence DCFs at a higher WACC, stress-test runway and burn, and favour cash-generative businesses with genuine pricing power. Energy, real assets and defensives are relatively insulated.",
+      "int": "Clients face input-cost pass-through and margin defence. Advise on pricing architecture, energy and freight hedging, and supply-chain resilience; watch demand elasticity for consumer-facing names."
+    },
+    {
+      "id": "soft",
+      "name": "Soft landing, disinflation glide",
+      "sub": "Orderly growth with cooling goods prices",
+      "status": "base",
+      "statusLabel": "Base case",
+      "signals": [
+        {
+          "cls": "d",
+          "icon": "▼",
+          "text": "S&P −0.3%"
+        },
+        {
+          "cls": "u",
+          "icon": "▲",
+          "text": "GBP $1.3412"
+        },
+        {
+          "cls": "d",
+          "icon": "▼",
+          "text": "Corn"
+        },
+        {
+          "cls": "u",
+          "icon": "▲",
+          "text": "Coffee"
+        }
+      ],
+      "analogue": "2024 disinflation; mid-1990s Fed soft landing.",
+      "inv": "Gradual rate relief supports multiples and reopens the window for growth rounds and exits. Re-engage deferred deals, normalise entry valuations, and lean back toward quality growth.",
+      "int": "Clients can plan around stabilising rates: capex, hiring and M&A pipelines unlock. Position advisory work around growth re-acceleration rather than pure cost defence."
+    },
+    {
+      "id": "stag",
+      "name": "Stagflation squeeze",
+      "sub": "High rates meet weak demand",
+      "status": "tail",
+      "statusLabel": "Tail risk — watch",
+      "signals": [
+        {
+          "cls": "d",
+          "icon": "▼",
+          "text": "US 10-yr 4.99%"
+        },
+        {
+          "cls": "u",
+          "icon": "▲",
+          "text": "Energy firm"
+        },
+        {
+          "cls": "f",
+          "icon": "■",
+          "text": "Confidence"
+        }
+      ],
+      "analogue": "1970s stagflation; UK 2011–12 commodity-and-austerity squeeze.",
+      "inv": "The worst regime for growth equity — high discount rates and soft demand together. Prioritise unit economics, defensive revenue and cost discipline; defer cash-hungry bets and extend runway assumptions.",
+      "int": "Clients need resilience planning: cost base, pricing power, working capital and demand scenarios. Lead with downside stress-testing and liquidity headroom."
+    },
+    {
+      "id": "agri",
+      "name": "Agri-input relief",
+      "sub": "Grains ease off their peaks",
+      "status": "emerging",
+      "statusLabel": "Emerging",
+      "signals": [
+        {
+          "cls": "d",
+          "icon": "▼",
+          "text": "Corn"
+        },
+        {
+          "cls": "f",
+          "icon": "■",
+          "text": "Soybeans"
+        },
+        {
+          "cls": "u",
+          "icon": "▲",
+          "text": "Wheat"
+        },
+        {
+          "cls": "u",
+          "icon": "▲",
+          "text": "Coffee"
+        }
+      ],
+      "analogue": "2023 fertiliser normalisation after the 2022 spike.",
+      "inv": "Margin tailwind for food producers, agritech and downstream food; a headwind for ag-input sellers. A lens for screening food and agri deals and for portfolio companies exposed to feedstock costs.",
+      "int": "Food, staples and agri clients see procurement relief. Revisit pricing held up during the spike and reset sourcing strategy while input costs soften."
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+name: Update data and deploy
+
+# Refreshes public/data.json from live sources, commits it (for history),
+# and deploys the dashboard to GitHub Pages.
+#
+# Schedule is UTC and GitHub may delay cron by several minutes — that is fine
+# for a macro dashboard. Change the cron lines below to adjust cadence, or run
+# it on demand from the Actions tab (workflow_dispatch).
+
+on:
+  schedule:
+    - cron: "0 7,11,16 * * 1-5"   # ~07:00, 11:00, 16:00 UTC, weekdays
+  workflow_dispatch:
+  push:
+    branches: [ main ]
+
+permissions:
+  contents: write      # commit refreshed data.json back to the repo
+  pages: write         # deploy to Pages
+  id-token: write      # required by deploy-pages
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Fetch latest data
+        env:
+          FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
+        run: node scripts/fetch_data.mjs
+
+      - name: Commit refreshed data (keeps a history)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/data.json
+          if git diff --staged --quiet; then
+            echo "No data changes to commit."
+          else
+            git commit -m "data: refresh $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push
+          fi
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+        with:
+          enablement: true
+
+      - name: Upload site artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
