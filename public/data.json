@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-30T09:18:34.861Z",
+  "generatedAt": "2026-10-30T09:19:34.745Z",
   "asOf": "30 Oct 2026",
   "fredEnabled": false,
   "groupMeta": {
@@ -15,8 +15,8 @@
         "key": "ftse",
         "n": "FTSE 100",
         "u": "index",
-        "v": "10,771",
-        "c": "+0.5%",
+        "v": "10,767",
+        "c": "+0.4%",
         "dir": "up",
         "s": [
           10637,
@@ -42,7 +42,7 @@
           10687,
           10695,
           10722,
-          10771
+          10767
         ],
         "pct": 87,
         "r": "Firmer — near 1-yr high · 87th pct"
@@ -87,8 +87,8 @@
         "key": "tesco",
         "n": "Tesco",
         "u": "pence · LSE",
-        "v": "536.4",
-        "c": "+1.0%",
+        "v": "536.0",
+        "c": "+0.9%",
         "dir": "up",
         "s": [
           470.9,
@@ -114,7 +114,7 @@
           535.6,
           532,
           531,
-          536.4
+          536
         ],
         "pct": 98,
         "r": "Firmer — near 1-yr high · 98th pct"
@@ -125,7 +125,7 @@
         "key": "gbp",
         "n": "GBP / USD",
         "u": "$ per £",
-        "v": "1.3424",
+        "v": "1.3422",
         "c": "+0.4%",
         "dir": "up",
         "s": [
@@ -152,10 +152,10 @@
           1.3345,
           1.3306,
           1.3328,
-          1.3424
+          1.3422
         ],
-        "pct": 51,
-        "r": "Firmer — mid-range · 51th pct"
+        "pct": 52,
+        "r": "Firmer — mid-range · 52th pct"
       },
       {
         "key": "us10y",
@@ -206,8 +206,8 @@
         "key": "brent",
         "n": "Brent crude",
         "u": "$/bbl",
-        "v": "112.42",
-        "c": "+1.5%",
+        "v": "112.40",
+        "c": "+1.4%",
         "dir": "up",
         "s": [
           102.59,
@@ -233,7 +233,7 @@
           113.88,
           115.32,
           114.88,
-          112.42
+          112.4
         ],
         "pct": 95,
         "r": "Firmer — near 1-yr high · 95th pct"
@@ -271,7 +271,7 @@
           6.1025,
           5.99,
           6.0375,
-          6.0425
+          6.045
         ],
         "pct": 54,
         "r": "Firmer — mid-range · 54th pct"
@@ -343,7 +343,7 @@
           12.293,
           12.245,
           12.197,
-          12.34
+          12.338
         ],
         "pct": 82,
         "r": "Softer — mid-range · 82th pct"
@@ -510,7 +510,7 @@
     ]
   },
   "regime": {
-    "read": "<strong>Energy-led inflation risk is firming while equities hold.</strong> Brent near $112.42 and US 10-yr around 4.99% keep the higher-for-longer bias intact, even as softening grains leave a disinflation glide path open. The base case is a soft landing; the live risk is an energy-and-food squeeze.",
+    "read": "<strong>Energy-led inflation risk is firming while equities hold.</strong> Brent near $112.40 and US 10-yr around 4.99% keep the higher-for-longer bias intact, even as softening grains leave a disinflation glide path open. The base case is a soft landing; the live risk is an energy-and-food squeeze.",
     "tags": [
       {
         "label": "Rates bias",
@@ -541,7 +541,7 @@
         {
           "cls": "u",
           "icon": "▲",
-          "text": "Brent $112.42"
+          "text": "Brent $112.40"
         },
         {
           "cls": "d",
@@ -578,7 +578,7 @@
         {
           "cls": "u",
           "icon": "▲",
-          "text": "GBP $1.3424"
+          "text": "GBP $1.3422"
         },
         {
           "cls": "d",
