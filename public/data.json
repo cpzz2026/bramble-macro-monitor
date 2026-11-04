@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-04T15:02:14.211Z",
+  "generatedAt": "2026-11-04T21:41:29.392Z",
   "asOf": "4 Nov 2026",
   "fredEnabled": false,
   "groupMeta": {
@@ -15,7 +15,7 @@
         "key": "ftse",
         "n": "FTSE 100",
         "u": "index",
-        "v": "10,834",
+        "v": "10,829",
         "c": "+1.8%",
         "dir": "up",
         "s": [
@@ -42,17 +42,17 @@
           10730,
           10761,
           10638,
-          10834
+          10829
         ],
-        "pct": 93,
-        "r": "Firmer — near 1-yr high · 93th pct"
+        "pct": 92,
+        "r": "Firmer — near 1-yr high · 92th pct"
       },
       {
         "key": "spx",
         "n": "S&P 500",
         "u": "index",
-        "v": "7,705",
-        "c": "+1.8%",
+        "v": "7,689",
+        "c": "+1.6%",
         "dir": "up",
         "s": [
           7722.7,
@@ -78,17 +78,17 @@
           7580.1,
           7541.4,
           7568.9,
-          7704.8
+          7688.6
         ],
-        "pct": 86,
-        "r": "Firmer — near 1-yr high · 86th pct"
+        "pct": 85,
+        "r": "Firmer — near 1-yr high · 85th pct"
       },
       {
         "key": "tesco",
         "n": "Tesco",
         "u": "pence · LSE",
-        "v": "549.5",
-        "c": "+2.0%",
+        "v": "553.4",
+        "c": "+2.7%",
         "dir": "up",
         "s": [
           469,
@@ -114,7 +114,7 @@
           540,
           545,
           538.6,
-          549.52
+          553.4
         ],
         "pct": 100,
         "r": "Firmer — near 1-yr high · 100th pct"
@@ -125,7 +125,7 @@
         "key": "gbp",
         "n": "GBP / USD",
         "u": "$ per £",
-        "v": "1.3475",
+        "v": "1.3471",
         "c": "+0.5%",
         "dir": "up",
         "s": [
@@ -152,17 +152,17 @@
           1.3379,
           1.3386,
           1.341,
-          1.3475
+          1.3471
         ],
-        "pct": 66,
-        "r": "Firmer — mid-range · 66th pct"
+        "pct": 65,
+        "r": "Firmer — mid-range · 65th pct"
       },
       {
         "key": "us10y",
         "n": "US 10-yr",
         "u": "yield %",
-        "v": "4.94",
-        "c": "−1 bp",
+        "v": "4.89",
+        "c": "−6 bp",
         "dir": "down",
         "s": [
           5.277,
@@ -188,10 +188,10 @@
           4.929,
           4.894,
           4.952,
-          4.939
+          4.894
         ],
-        "pct": 85,
-        "r": "Softer — near 1-yr high · 85th pct"
+        "pct": 84,
+        "r": "Softer — mid-range · 84th pct"
       },
       {
         "key": "gilt",
@@ -206,8 +206,8 @@
         "key": "brent",
         "n": "Brent crude",
         "u": "$/bbl",
-        "v": "100.62",
-        "c": "−2.9%",
+        "v": "95.08",
+        "c": "−8.2%",
         "dir": "down",
         "s": [
           102.25,
@@ -233,10 +233,10 @@
           117.64,
           104.77,
           103.6,
-          100.62
+          95.08
         ],
-        "pct": 71,
-        "r": "Softer — mid-range · 71th pct"
+        "pct": 61,
+        "r": "Softer — mid-range · 61th pct"
       }
     ],
     "g-ag": [
@@ -244,9 +244,9 @@
         "key": "wheat",
         "n": "Wheat",
         "u": "$/bushel · CBOT",
-        "v": "6.05",
-        "c": "+0.9%",
-        "dir": "up",
+        "v": "5.99",
+        "c": "−0.1%",
+        "dir": "down",
         "s": [
           6.83,
           6.9225,
@@ -271,17 +271,17 @@
           6.035,
           6.065,
           5.9975,
-          6.0525
+          5.9925
         ],
-        "pct": 55,
-        "r": "Firmer — mid-range · 55th pct"
+        "pct": 51,
+        "r": "Softer — mid-range · 51th pct"
       },
       {
         "key": "corn",
         "n": "Corn",
         "u": "$/bushel · CBOT",
-        "v": "4.44",
-        "c": "+0.2%",
+        "v": "4.46",
+        "c": "+0.7%",
         "dir": "up",
         "s": [
           4.9775,
@@ -307,17 +307,17 @@
           4.4775,
           4.4825,
           4.425,
-          4.435
+          4.4575
         ],
-        "pct": 46,
-        "r": "Firmer — mid-range · 46th pct"
+        "pct": 50,
+        "r": "Firmer — mid-range · 50th pct"
       },
       {
         "key": "soy",
         "n": "Soybeans",
         "u": "$/bushel · CBOT",
-        "v": "12.09",
-        "c": "−0.4%",
+        "v": "12.04",
+        "c": "−0.8%",
         "dir": "down",
         "s": [
           12.783,
@@ -343,17 +343,17 @@
           12.223,
           12.047,
           12.03,
-          12.093
+          12.037
         ],
-        "pct": 75,
-        "r": "Softer — mid-range · 75th pct"
+        "pct": 73,
+        "r": "Softer — mid-range · 73th pct"
       },
       {
         "key": "sugar",
         "n": "Sugar",
         "u": "¢/lb · raw NY",
-        "v": "18.43",
-        "c": "+0.5%",
+        "v": "18.47",
+        "c": "+0.8%",
         "dir": "up",
         "s": [
           19.93,
@@ -379,7 +379,7 @@
           19.36,
           19.06,
           18.33,
-          18.43
+          18.47
         ],
         "pct": 90,
         "r": "Firmer — near 1-yr high · 90th pct"
@@ -388,9 +388,9 @@
         "key": "cocoa",
         "n": "Cocoa",
         "u": "$/tonne · NY",
-        "v": "5,370",
-        "c": "−0.8%",
-        "dir": "down",
+        "v": "5,427",
+        "c": "+0.2%",
+        "dir": "up",
         "s": [
           5670,
           5867,
@@ -415,17 +415,17 @@
           5453,
           5435,
           5414,
-          5370
+          5427
         ],
-        "pct": 55,
-        "r": "Softer — mid-range · 55th pct"
+        "pct": 58,
+        "r": "Firmer — mid-range · 58th pct"
       },
       {
         "key": "coffee",
         "n": "Coffee",
         "u": "$/lb · arabica",
-        "v": "2.80",
-        "c": "−1.3%",
+        "v": "2.79",
+        "c": "−1.6%",
         "dir": "down",
         "s": [
           2.8875,
@@ -451,7 +451,7 @@
           2.872,
           2.921,
           2.8395,
-          2.804
+          2.795
         ],
         "pct": 12,
         "r": "Softer — near 1-yr low · 12th pct"
@@ -510,7 +510,7 @@
     ]
   },
   "regime": {
-    "read": "<strong>Energy-led inflation risk is easing while equities hold.</strong> Brent near $100.62 and US 10-yr around 4.94% keep the higher-for-longer bias intact, even as softening grains leave a disinflation glide path open. The base case is a soft landing; the live risk is an energy-and-food squeeze.",
+    "read": "<strong>Energy-led inflation risk is easing while equities hold.</strong> Brent near $95.08 and US 10-yr around 4.89% keep the higher-for-longer bias intact, even as softening grains leave a disinflation glide path open. The base case is a soft landing; the live risk is an energy-and-food squeeze.",
     "tags": [
       {
         "label": "Rates bias",
@@ -535,22 +535,22 @@
       "id": "energy",
       "name": "Higher-for-longer, energy-led",
       "sub": "Sticky inflation keeps rates restrictive",
-      "status": "rising",
-      "statusLabel": "Risk rising",
+      "status": "emerging",
+      "statusLabel": "Contained",
       "signals": [
         {
           "cls": "d",
           "icon": "▼",
-          "text": "Brent $100.62"
+          "text": "Brent $95.08"
         },
         {
           "cls": "d",
           "icon": "▼",
-          "text": "US 10-yr 4.94%"
+          "text": "US 10-yr 4.89%"
         },
         {
-          "cls": "u",
-          "icon": "▲",
+          "cls": "d",
+          "icon": "▼",
           "text": "Wheat"
         },
         {
@@ -573,12 +573,12 @@
         {
           "cls": "u",
           "icon": "▲",
-          "text": "S&P +1.8%"
+          "text": "S&P +1.6%"
         },
         {
           "cls": "u",
           "icon": "▲",
-          "text": "GBP $1.3475"
+          "text": "GBP $1.3471"
         },
         {
           "cls": "u",
@@ -605,7 +605,7 @@
         {
           "cls": "d",
           "icon": "▼",
-          "text": "US 10-yr 4.94%"
+          "text": "US 10-yr 4.89%"
         },
         {
           "cls": "d",
@@ -640,8 +640,8 @@
           "text": "Soybeans"
         },
         {
-          "cls": "u",
-          "icon": "▲",
+          "cls": "d",
+          "icon": "▼",
           "text": "Wheat"
         },
         {
