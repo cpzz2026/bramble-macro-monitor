@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T15:23:52.387Z",
+  "generatedAt": "2026-11-10T21:37:30.511Z",
   "asOf": "10 Nov 2026",
   "fredEnabled": false,
   "groupMeta": {
@@ -15,9 +15,9 @@
         "key": "ftse",
         "n": "FTSE 100",
         "u": "index",
-        "v": "10,794",
-        "c": "+0.1%",
-        "dir": "up",
+        "v": "10,752",
+        "c": "−0.3%",
+        "dir": "down",
         "s": [
           10442,
           10552,
@@ -42,16 +42,16 @@
           10783,
           10674,
           10783,
-          10794
+          10752
         ],
-        "pct": 89,
-        "r": "Firmer — near 1-yr high · 89th pct"
+        "pct": 84,
+        "r": "Softer — mid-range · 84th pct"
       },
       {
         "key": "spx",
         "n": "S&P 500",
         "u": "index",
-        "v": "7,520",
+        "v": "7,521",
         "c": "−0.4%",
         "dir": "down",
         "s": [
@@ -78,7 +78,7 @@
           7353.7,
           7376.9,
           7549.9,
-          7520.2
+          7520.9
         ],
         "pct": 67,
         "r": "Softer — mid-range · 67th pct"
@@ -87,8 +87,8 @@
         "key": "tesco",
         "n": "Tesco",
         "u": "pence · LSE",
-        "v": "549.4",
-        "c": "−0.3%",
+        "v": "550.6",
+        "c": "−0.1%",
         "dir": "down",
         "s": [
           500.4,
@@ -114,7 +114,7 @@
           560.8,
           554,
           551,
-          549.4
+          550.6
         ],
         "pct": 98,
         "r": "Softer — near 1-yr high · 98th pct"
@@ -125,8 +125,8 @@
         "key": "gbp",
         "n": "GBP / USD",
         "u": "$ per £",
-        "v": "1.3376",
-        "c": "−0.5%",
+        "v": "1.3345",
+        "c": "−0.7%",
         "dir": "down",
         "s": [
           1.3215,
@@ -152,16 +152,16 @@
           1.3477,
           1.3456,
           1.336,
-          1.3376
+          1.3345
         ],
-        "pct": 36,
-        "r": "Softer — mid-range · 36th pct"
+        "pct": 27,
+        "r": "Softer — mid-range · 27th pct"
       },
       {
         "key": "us10y",
         "n": "US 10-yr",
         "u": "yield %",
-        "v": "4.99",
+        "v": "4.98",
         "c": "+12 bp",
         "dir": "up",
         "s": [
@@ -188,7 +188,7 @@
           4.837,
           4.859,
           4.864,
-          4.985
+          4.983
         ],
         "pct": 88,
         "r": "Firmer — near 1-yr high · 88th pct"
@@ -206,8 +206,8 @@
         "key": "brent",
         "n": "Brent crude",
         "u": "$/bbl",
-        "v": "90.93",
-        "c": "−1.8%",
+        "v": "92.02",
+        "c": "−0.6%",
         "dir": "down",
         "s": [
           104.28,
@@ -233,10 +233,10 @@
           98.29,
           98.32,
           92.57,
-          90.93
+          92.02
         ],
-        "pct": 51,
-        "r": "Softer — mid-range · 51th pct"
+        "pct": 53,
+        "r": "Softer — mid-range · 53th pct"
       }
     ],
     "g-ag": [
@@ -244,8 +244,8 @@
         "key": "wheat",
         "n": "Wheat",
         "u": "$/bushel · CBOT",
-        "v": "5.89",
-        "c": "+0.1%",
+        "v": "5.92",
+        "c": "+0.6%",
         "dir": "up",
         "s": [
           6.8325,
@@ -271,17 +271,17 @@
           5.9925,
           5.9125,
           5.88,
-          5.8875
+          5.915
         ],
-        "pct": 40,
-        "r": "Firmer — mid-range · 40th pct"
+        "pct": 43,
+        "r": "Firmer — mid-range · 43th pct"
       },
       {
         "key": "corn",
         "n": "Corn",
         "u": "$/bushel · CBOT",
-        "v": "4.40",
-        "c": "+0.1%",
+        "v": "4.48",
+        "c": "+2.0%",
         "dir": "up",
         "s": [
           5.0025,
@@ -307,17 +307,17 @@
           4.4,
           4.415,
           4.3925,
-          4.395
+          4.48
         ],
-        "pct": 38,
-        "r": "Firmer — mid-range · 38th pct"
+        "pct": 54,
+        "r": "Firmer — mid-range · 54th pct"
       },
       {
         "key": "soy",
         "n": "Soybeans",
         "u": "$/bushel · CBOT",
-        "v": "11.89",
-        "c": "+0.1%",
+        "v": "12.27",
+        "c": "+3.2%",
         "dir": "up",
         "s": [
           12.875,
@@ -343,17 +343,17 @@
           11.81,
           11.89,
           11.822,
-          11.895
+          12.268
         ],
-        "pct": 65,
-        "r": "Firmer — mid-range · 65th pct"
+        "pct": 81,
+        "r": "Firmer — mid-range · 81th pct"
       },
       {
         "key": "sugar",
         "n": "Sugar",
         "u": "¢/lb · raw NY",
-        "v": "18.08",
-        "c": "−0.7%",
+        "v": "18.15",
+        "c": "−0.3%",
         "dir": "down",
         "s": [
           20.15,
@@ -379,17 +379,17 @@
           18.56,
           18.24,
           18.21,
-          18.08
+          18.15
         ],
-        "pct": 86,
-        "r": "Softer — near 1-yr high · 86th pct"
+        "pct": 87,
+        "r": "Softer — near 1-yr high · 87th pct"
       },
       {
         "key": "cocoa",
         "n": "Cocoa",
         "u": "$/tonne · NY",
-        "v": "4,799",
-        "c": "−6.3%",
+        "v": "4,852",
+        "c": "−5.2%",
         "dir": "down",
         "s": [
           5665,
@@ -415,7 +415,7 @@
           5181,
           5155,
           5004,
-          4799
+          4852
         ],
         "pct": 43,
         "r": "Softer — mid-range · 43th pct"
@@ -424,8 +424,8 @@
         "key": "coffee",
         "n": "Coffee",
         "u": "$/lb · arabica",
-        "v": "2.66",
-        "c": "−0.5%",
+        "v": "2.67",
+        "c": "−0.2%",
         "dir": "down",
         "s": [
           2.8905,
@@ -451,7 +451,7 @@
           2.7715,
           2.8,
           2.736,
-          2.6585
+          2.6675
         ],
         "pct": 5,
         "r": "Softer — near 1-yr low · 5th pct"
@@ -510,7 +510,7 @@
     ]
   },
   "regime": {
-    "read": "<strong>Energy-led inflation risk is easing while equities hold.</strong> Brent near $90.93 and US 10-yr around 4.99% keep the higher-for-longer bias intact, with food prices a swing factor. The base case is a soft landing; the live risk is an energy-and-food squeeze.",
+    "read": "<strong>Energy-led inflation risk is easing while equities hold.</strong> Brent near $92.02 and US 10-yr around 4.98% keep the higher-for-longer bias intact, with food prices a swing factor. The base case is a soft landing; the live risk is an energy-and-food squeeze.",
     "tags": [
       {
         "label": "Rates bias",
@@ -541,12 +541,12 @@
         {
           "cls": "d",
           "icon": "▼",
-          "text": "Brent $90.93"
+          "text": "Brent $92.02"
         },
         {
           "cls": "u",
           "icon": "▲",
-          "text": "US 10-yr 4.99%"
+          "text": "US 10-yr 4.98%"
         },
         {
           "cls": "u",
@@ -578,7 +578,7 @@
         {
           "cls": "d",
           "icon": "▼",
-          "text": "GBP $1.3376"
+          "text": "GBP $1.3345"
         },
         {
           "cls": "u",
@@ -605,7 +605,7 @@
         {
           "cls": "u",
           "icon": "▲",
-          "text": "US 10-yr 4.99%"
+          "text": "US 10-yr 4.98%"
         },
         {
           "cls": "d",
