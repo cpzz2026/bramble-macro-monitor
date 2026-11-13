@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T15:03:47.382Z",
+  "generatedAt": "2026-11-13T21:47:19.002Z",
   "asOf": "13 Nov 2026",
   "fredEnabled": false,
   "groupMeta": {
@@ -15,8 +15,8 @@
         "key": "ftse",
         "n": "FTSE 100",
         "u": "index",
-        "v": "10,878",
-        "c": "+0.1%",
+        "v": "10,903",
+        "c": "+0.4%",
         "dir": "up",
         "s": [
           10650,
@@ -42,17 +42,17 @@
           10752,
           10836,
           10863,
-          10878
+          10903
         ],
-        "pct": 96,
-        "r": "Firmer — near 1-yr high · 96th pct"
+        "pct": 99,
+        "r": "Firmer — near 1-yr high · 99th pct"
       },
       {
         "key": "spx",
         "n": "S&P 500",
         "u": "index",
-        "v": "7,542",
-        "c": "−0.7%",
+        "v": "7,562",
+        "c": "−0.4%",
         "dir": "down",
         "s": [
           7805.5,
@@ -78,17 +78,17 @@
           7520.9,
           7619.4,
           7592.4,
-          7541.5
+          7561.7
         ],
-        "pct": 68,
-        "r": "Softer — mid-range · 68th pct"
+        "pct": 71,
+        "r": "Softer — mid-range · 71th pct"
       },
       {
         "key": "tesco",
         "n": "Tesco",
         "u": "pence · LSE",
-        "v": "554.2",
-        "c": "+0.4%",
+        "v": "560.2",
+        "c": "+1.5%",
         "dir": "up",
         "s": [
           517,
@@ -114,7 +114,7 @@
           550.6,
           550.6,
           552,
-          554.2
+          560.2
         ],
         "pct": 99,
         "r": "Firmer — near 1-yr high · 99th pct"
@@ -125,9 +125,9 @@
         "key": "gbp",
         "n": "GBP / USD",
         "u": "$ per £",
-        "v": "1.3245",
-        "c": "+0.1%",
-        "dir": "up",
+        "v": "1.3211",
+        "c": "−0.2%",
+        "dir": "down",
         "s": [
           1.321,
           1.3257,
@@ -152,17 +152,17 @@
           1.3442,
           1.3349,
           1.3277,
-          1.3245
+          1.3211
         ],
-        "pct": 13,
-        "r": "Firmer — near 1-yr low · 13th pct"
+        "pct": 6,
+        "r": "Softer — near 1-yr low · 6th pct"
       },
       {
         "key": "us10y",
         "n": "US 10-yr",
         "u": "yield %",
-        "v": "5.16",
-        "c": "+6 bp",
+        "v": "5.15",
+        "c": "+5 bp",
         "dir": "up",
         "s": [
           5.217,
@@ -188,7 +188,7 @@
           4.983,
           4.998,
           5.103,
-          5.164
+          5.154
         ],
         "pct": 94,
         "r": "Firmer — near 1-yr high · 94th pct"
@@ -206,8 +206,8 @@
         "key": "brent",
         "n": "Brent crude",
         "u": "$/bbl",
-        "v": "97.01",
-        "c": "+1.2%",
+        "v": "96.39",
+        "c": "+0.6%",
         "dir": "up",
         "s": [
           105.69,
@@ -233,7 +233,7 @@
           91.49,
           92.76,
           95.82,
-          97.01
+          96.39
         ],
         "pct": 63,
         "r": "Firmer — mid-range · 63th pct"
@@ -245,7 +245,7 @@
         "n": "Wheat",
         "u": "$/bushel · CBOT",
         "v": "5.94",
-        "c": "+1.7%",
+        "c": "+1.6%",
         "dir": "up",
         "s": [
           6.6925,
@@ -271,7 +271,7 @@
           5.9275,
           5.995,
           5.8425,
-          5.9425
+          5.935
         ],
         "pct": 44,
         "r": "Firmer — mid-range · 44th pct"
@@ -280,8 +280,8 @@
         "key": "corn",
         "n": "Corn",
         "u": "$/bushel · CBOT",
-        "v": "4.49",
-        "c": "+1.4%",
+        "v": "4.46",
+        "c": "+0.8%",
         "dir": "up",
         "s": [
           4.8275,
@@ -307,17 +307,17 @@
           4.49,
           4.48,
           4.425,
-          4.4875
+          4.46
         ],
-        "pct": 56,
-        "r": "Firmer — mid-range · 56th pct"
+        "pct": 50,
+        "r": "Firmer — mid-range · 50th pct"
       },
       {
         "key": "soy",
         "n": "Soybeans",
         "u": "$/bushel · CBOT",
-        "v": "12.37",
-        "c": "+1.5%",
+        "v": "12.33",
+        "c": "+1.1%",
         "dir": "up",
         "s": [
           12.838,
@@ -343,7 +343,7 @@
           12.245,
           12.29,
           12.27,
-          12.367
+          12.328
         ],
         "pct": 82,
         "r": "Firmer — mid-range · 82th pct"
@@ -352,8 +352,8 @@
         "key": "sugar",
         "n": "Sugar",
         "u": "¢/lb · raw NY",
-        "v": "18.45",
-        "c": "+1.3%",
+        "v": "18.40",
+        "c": "+1.0%",
         "dir": "up",
         "s": [
           21.11,
@@ -379,17 +379,17 @@
           18.09,
           18.48,
           18.22,
-          18.45
+          18.4
         ],
-        "pct": 88,
-        "r": "Firmer — near 1-yr high · 88th pct"
+        "pct": 89,
+        "r": "Firmer — near 1-yr high · 89th pct"
       },
       {
         "key": "cocoa",
         "n": "Cocoa",
         "u": "$/tonne · NY",
-        "v": "5,297",
-        "c": "+1.8%",
+        "v": "5,267",
+        "c": "+1.2%",
         "dir": "up",
         "s": [
           5733,
@@ -415,7 +415,7 @@
           4742,
           4907,
           5066,
-          5297
+          5267
         ],
         "pct": 55,
         "r": "Firmer — mid-range · 55th pct"
@@ -424,9 +424,9 @@
         "key": "coffee",
         "n": "Coffee",
         "u": "$/lb · arabica",
-        "v": "2.76",
-        "c": "+0.4%",
-        "dir": "up",
+        "v": "2.74",
+        "c": "−0.2%",
+        "dir": "down",
         "s": [
           2.927,
           2.9805,
@@ -451,10 +451,10 @@
           2.714,
           2.69,
           2.802,
-          2.757
+          2.74
         ],
-        "pct": 10,
-        "r": "Firmer — near 1-yr low · 10th pct"
+        "pct": 9,
+        "r": "Softer — near 1-yr low · 9th pct"
       },
       {
         "key": "urea",
@@ -510,7 +510,7 @@
     ]
   },
   "regime": {
-    "read": "<strong>Energy-led inflation risk is firming while equities hold.</strong> Brent near $97.01 and US 10-yr around 5.16% keep the higher-for-longer bias intact, with food prices a swing factor. The base case is a soft landing; the live risk is an energy-and-food squeeze.",
+    "read": "<strong>Energy-led inflation risk is firming while equities hold.</strong> Brent near $96.39 and US 10-yr around 5.15% keep the higher-for-longer bias intact, with food prices a swing factor. The base case is a soft landing; the live risk is an energy-and-food squeeze.",
     "tags": [
       {
         "label": "Rates bias",
@@ -541,12 +541,12 @@
         {
           "cls": "u",
           "icon": "▲",
-          "text": "Brent $97.01"
+          "text": "Brent $96.39"
         },
         {
           "cls": "u",
           "icon": "▲",
-          "text": "US 10-yr 5.16%"
+          "text": "US 10-yr 5.15%"
         },
         {
           "cls": "u",
@@ -567,18 +567,18 @@
       "id": "soft",
       "name": "Soft landing, disinflation glide",
       "sub": "Orderly growth with cooling goods prices",
-      "status": "tail",
-      "statusLabel": "Fragile",
+      "status": "base",
+      "statusLabel": "Base case",
       "signals": [
         {
           "cls": "d",
           "icon": "▼",
-          "text": "S&P −0.7%"
+          "text": "S&P −0.4%"
         },
         {
-          "cls": "u",
-          "icon": "▲",
-          "text": "GBP $1.3245"
+          "cls": "d",
+          "icon": "▼",
+          "text": "GBP $1.3211"
         },
         {
           "cls": "u",
@@ -586,8 +586,8 @@
           "text": "Corn"
         },
         {
-          "cls": "u",
-          "icon": "▲",
+          "cls": "d",
+          "icon": "▼",
           "text": "Coffee"
         }
       ],
@@ -605,7 +605,7 @@
         {
           "cls": "u",
           "icon": "▲",
-          "text": "US 10-yr 5.16%"
+          "text": "US 10-yr 5.15%"
         },
         {
           "cls": "u",
@@ -626,8 +626,8 @@
       "id": "agri",
       "name": "Agri-input relief",
       "sub": "Grains ease off their peaks",
-      "status": "tail",
-      "statusLabel": "Fading",
+      "status": "emerging",
+      "statusLabel": "Emerging",
       "signals": [
         {
           "cls": "u",
@@ -645,8 +645,8 @@
           "text": "Wheat"
         },
         {
-          "cls": "u",
-          "icon": "▲",
+          "cls": "d",
+          "icon": "▼",
           "text": "Coffee"
         }
       ],
